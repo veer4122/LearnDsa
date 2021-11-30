@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#ob {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: black;
+  color: white;
+}
+
+#ob #ib {
+  padding: 3%;
+  height: 75vh;
+  width: 75vw;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+#ob #ib #inp {
+  position: relative;
+  top: 10px;
+  margin-bottom: 5%;
+}
+
+#ob #ib #inp #input {
+  width: 30vw;
+}
+
+#ob #ib #list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+#ob #ib #list li {
+  position: relative;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: 1px white solid;
+  height: 20px;
+  width: 20px;
+}
+
+#ob #ib #slist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+#ob #ib #slist li {
+  position: relative;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: 1px transparent solid;
+  height: 20px;
+  width: 20px;
+}
+
+#ob #ib #state {
+  height: 10vh;
+}
+
+#ob #ib #bs {
+  position: relative;
+}
+/*# sourceMappingURL=new.css.map */
